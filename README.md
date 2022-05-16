@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# ONTO Engineering Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I'll walk you here through my thinking process to how I solved the task.
+
+Based on the data, we've got `transactionType` field to indicate wheter the transaction succeeded or failed.
+
+So I grouped the data into a new collection called `heatMapData` which groups the data based on the `date` and counts the successful/failed transactions into occurences `value` field, then based on the value I calculate the `scale` on which the data will be presented on the Heatmap.
 
 ## Available Scripts
 
